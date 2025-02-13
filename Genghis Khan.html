@@ -24,15 +24,14 @@
     <main>
         <section id="Biography">
             <h2>Biography</h2>
-            <blockquote>
-
-                <q>
-                    The greatest happiness is to vanquish your enemies, to chase them before you, to rob them of their
-                    wealth, to see those dear to them bathed in tears.
-                </q>
-
-                <b>&#8211 Genghis Khan</b>
-
+            <blockquote web="https://en.wikipedia.org/wiki/Genghis_Khan">
+                <b>Genghis Khan</b> was the founder and first Great Khan of the Mongol Empire,
+                uniting the nomadic tribes of Northeast Asia and leading a series of conquests that created one of the
+                largest
+                empires in history. Genghis fell from his horse while hunting in the winter of 1226/27 and became
+                increasingly ill during the following months. He died on either 18 or 25 August 1227, but his death was
+                kept a closely
+                guarded secret and Zhongxing, unaware, fell the following month.
             </blockquote>
         </section>
 
@@ -40,15 +39,24 @@
         <section id="Portrait">
             <h2>Portrait</h2>
         </section>
-        <img src="Images/gKhan-Portrait.png" alt="Genghis-Khan on a horse with an eagle on his arm.">
+        <img src="Images/gKhan-Portrait.png" alt="Genghis-Khan">
+        <figcaption>Genghis Khan in 1210</figcaption>
 
         <section id="Quote">
             <h2>Quote</h2>
+            <q>I am the punishment of God...If you had not committed great sins, God would not have sent a punishment
+                like me upon you.</q>
+            <b><i>&#8211 Genghis Khan</i></b>
         </section>
 
 
         <section id="Video">
             <h2>Video</h2>
+            <iframe width="720" height="405" src="https://www.youtube.com/embed/pDyece8CQF8?si=s4StOWBkirjuHGT9"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </iframe>
         </section>
 
     </main>
@@ -58,11 +66,10 @@
         <section id="Resources">
             <h2>Resources</h2>
             <ul>
-
                 <li><a href="https://en.wikipedia.org/wiki/Genghis_Khan" target="_blank"
                         title="Detailed history of Genghis Khan on Wikipedia">Wikipedia</a></li>
                 <li><a href="https://www.history.com/topics/asian-history/genghis-khan" target="_blank"
-                        title="Detailed history of Genghis Khan on History">History</a></li>
+                        title="The tale of Genghis Khan on History">History</a></li>
                 <li><a href="https://www.britannica.com/biography/Genghis-Khan/Rise-to-power" target="_blank"
                         title="Rise to power of Genghis Khan on Britannica">Britannica</a></li>
             </ul>
@@ -71,6 +78,33 @@
 
         <section id="Contact">
             <h2>Contact</h2>
+            <form>
+                <label for="Full Name" class="form-label">Full Name:</label><br>
+                <input type="text" id="Full Name" name="Full Name" class="form-control"><br><br>
+
+                <label for="Email" class="form-label">Email:</label><br>
+                <input type="Email" id="email" name="Email" placeholder="alias@domain.com" class="form-control"
+                    autofocus required><br><br>
+
+                <label for="phone" class="form-label">Phone:</label><br>
+                <input type="tel" id="phone" name="Phone Number" class="form-control"
+                    placeholder="888-888-8888"><br><br>
+
+                <label for="Dropdown" class="form-label">Preferred method of contact:</label>
+                <select id="Dropdown" name="contact-method" class="form-control">
+                    <option value="Email" selected>Email</option>
+                    <option value="Phone">Phone</option>
+                </select><br><br>
+
+                <label for="message" class="form-label">Message:</label><br>
+                <textarea id="message" class="form-control"></textarea><br><br>
+
+                <label for="Captcha" class="form-label">I am not a robot</label>
+
+                <input type="checkbox" id="Robot" nam="" value="Not a robot" class="form-control" required>
+
+                <input type="submit" value="submit">
+            </form>
         </section>
     </aside>
 
