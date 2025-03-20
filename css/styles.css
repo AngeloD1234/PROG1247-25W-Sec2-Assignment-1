@@ -1,1 +1,39 @@
 /*Angelo Diab Student Number 9021234*/
+
+h1,
+h2 {
+    color: whitesmoke;
+    background-color: black;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.form-label {
+    font-size: x-large;
+    color: white;
+}
+
+#Biography {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    background-color: darkslategray;
+}
+
+header>h1 {
+    text-align: center;
+    font-style: italic;
+    color: red;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.5;
+    font-variant: inherit;
+    background-color: darkred;
+}
